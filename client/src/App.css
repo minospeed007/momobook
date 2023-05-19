@@ -1,0 +1,1758 @@
+html{
+    font-size:10px;
+    height: clamp(60rem,90vh, 100vh);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    overflow-x: hidden;
+scroll-behavior: smooth;
+}
+
+.parent-app{
+    display: flex;
+    justify-content: center;
+    margin-top:6rem;
+    width:100vw;
+    height: 100vh;
+
+}
+.parent{
+    display: flex;
+    justify-content: center;
+
+    width:100vw;
+    height: 100vh;
+
+}
+.btn-div{
+    margin-top:4rem;
+    margin-bottom: 2rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    font-size:clamp(1rem, 1.2rem,1.7rem);
+    font-style: italic;
+    color: rgb(64, 57, 59);
+}
+
+
+
+    
+.signup-btn{
+    border-radius: 5px;
+    width: 150px;
+    color:white;
+    height: 25px;
+    border:none;
+    background-color: blue;
+}
+.login-btn{
+    border-radius: 5px;
+    background-color: green;
+    color:white;
+    border:none;
+    height:2.5rem;
+    font-size: 14px;
+    margin-top: 3rem;
+    width: 25.5rem;
+}
+.cashToggle{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.record-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: .3rem;
+    height:2.2rem;
+    margin-left:.3rem;
+    font-size: 1.4rem;
+    width:8rem;
+    cursor: pointer;
+}
+.login-record{
+    display:flex;
+    margin-top:2rem;
+    justify-content: center;
+    align-items: center;
+}
+.p-login{
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+.record-error{
+    text-align: center;
+    color:red;
+}
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.toggle-container{
+    position:relative;
+}
+.cashToggle{
+    position: absolute;
+    top:100%;
+    left: 0;
+    z-index: 999;
+}
+.head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:3rem;
+    margin-top: 4rem;
+}
+.pLogin{
+    font-size:1.2rem;
+    color:black;
+}
+  
+.search_p{
+    text-align: center;
+    font-size: 1.7rem;
+}
+.tableh{
+    margin: .5rem;
+    font-size: 1.8rem;
+}
+.form{
+    display:flex;
+    justify-content: center;
+ align-items: center;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+.flex-paper{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.flex-table{
+    display:flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trnx-paper{
+    
+    width:680px;
+    height: 25rem;
+}
+.btn-trnx{
+    background-color: black;
+    border: none;
+    height: 23px;
+    width:120px;
+    color:white;
+    border-radius: 3px;
+}
+
+
+
+.search_items{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.rec-divs{
+    margin-top:40px;
+    width:300px;
+}
+.rec-photo{
+    height: 25px;
+    border-radius: 45%;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.rec-p{
+    color: rgb(202, 197, 197);
+    text-align: center;
+    margin-top: 1.2rem;
+    font-size: 1.7rem;
+}
+.rec-link{
+    text-decoration: none;
+}
+.flex-icon{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width:180px;
+    margin-bottom: 1.8rem;
+}
+.rec-icon{
+font-size:1.8rem;
+margin-left:1.7rem;
+margin-right: 1rem;
+margin-top: 1rem;
+color: rgb(247, 231, 143)
+}
+.log-rec{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    width:208px;
+}
+.rec-papers{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:45px;
+}
+
+
+.log-in{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.bal-form{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+    background-color: rgb(234, 224, 224);
+    width:60rem;
+    height: 32rem;
+    margin-top:1.5rem;
+}
+.rec-records{
+    display :flex;
+    margin-top:10px;
+    justify-content: center;
+    align-items: center;  
+}
+.cash{
+    display :flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color:aqua;
+    width: 750px;
+}
+.div-log{
+    margin-top:1.5rem;
+    margin-bottom: 1.5rem;
+   
+    text-decoration: none;
+}
+.balbtn{width:20rem;}
+.log-btns{text-decoration:none}
+.transaction{
+
+display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.cash-p{
+    margin: .5rem;
+    font-size: 1.4rem;
+}
+.cash-bal{
+display: flex;
+justify-content: start;
+margin-top:1rem;
+
+}
+.select{
+    height:24px;
+    margin-top: 0;
+    width:25.5rem;
+    border-radius: 3px;
+    border:none;
+}
+.login-input{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+width:25.5rem;
+    border:none;
+    height:24px;
+}
+
+
+.submit-div{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-bottom:1.5rem;
+    margin-top: 1.8rem;
+}
+.cash-btn{
+    border-radius: 3px;
+    color:white;
+    width:min(8rem, 20rem);
+    height:25px;
+    border:none;
+    background-color: blue;
+}
+.rec-paper{
+    height:45rem;
+
+    background-color:rgb(22, 21, 21);
+    width: 25.5rem;
+}
+.register-parent{
+    display: flex;
+    width:110vw;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #ffc107, #f44336, #2196f3);
+
+}
+
+.tnx-p{
+    margin:10px;
+    background-color: rgb(168, 165, 165);
+}
+.rec-parent{
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+    width:100vw;
+    height: 100vh;
+   
+}
+.record{
+    display: flex;
+    justify-content:center;
+    margin-top: 0;
+    background-color: rgb(206, 206, 128);
+    height:96.6%;
+    width:80vw;
+}
+.rec-form-paper{
+    display:flex;
+    align-items: center;
+    height:78%;
+    justify-content: center;
+    width:100%;
+}
+.inputs-form{
+    width:60vw;
+    display:flex;
+    height:75vh;
+    justify-content: center;
+    align-items: center;
+}
+.cash-bal-parent{
+    display:flex;
+    width: 30rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rec-form-parent{
+    height: 100%;
+width: 80vw;
+align-items: center;
+    justify-content: center;
+  }
+  .foot-container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+ 
+ .cash-parent{
+    display: flex;
+    margin-bottom: 2rem;
+    justify-content:space-between;
+ }
+  
+
+
+.regis-div{
+    margin-top: 4.5rem;
+    margin-bottom: 3rem;
+}
+.sign-up-p{
+    text-align: center;
+    color:rgb(48, 46, 46);
+    font-size:1.3rem;
+}
+.search-parent{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.search-table{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width:80vw;
+    margin-bottom: 2rem;
+}
+.log-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bal-containter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100vw;
+    background-color: yellow;
+}
+.form-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:60%;
+
+    
+}
+.signup-link{text-decoration: none;
+font-size: 1.5rem;}
+.sign-up-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:3.5rem;
+    margin-top: 5.5rem;
+}
+
+.trnx-parent{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height: 90vh;
+}
+.no-data{
+    margin-bottom: 15rem;
+}
+.p-log{font-size: 1.6rem;} 
+
+ .search-p{text-align: center; 
+    font-size: 1.4rem; color:rgb(150, 145, 145)}
+.search-div{
+    height:37rem;
+    width:clamp(30rem,50rem,55rem);
+
+}
+
+.no-data-icon{
+    font-size: 10rem;
+    color: rgb(189, 178, 178);
+    
+}
+.no-data-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width: 75vw;
+    height: 75vh;
+}
+.no-data-icon-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    
+}
+.input{margin-top:2rem;
+margin-bottom:2rem;
+width: clamp(15rem, 20.5rem, 35rem);
+height: 2.5rem;
+}
+.log-btn{
+    font-size: 2.5rem;
+    width:20rem;
+}
+.log-btn{
+    font-size: 2.5rem;
+}
+.input-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:1rem;
+    margin-top:2rem;
+}
+
+.inp-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    width:clamp(20rem, 60%, 80%);
+}
+.footer-main{
+    width: 100%;
+background-color: rgb(24, 22, 22);    
+}
+.momo-footer{
+    display :flex;
+    justify-content: center;
+    align-items:center;
+    width:100vw;
+}
+.momo-div{margin-top:2rem;}
+.foot-link{
+    display :flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 1rem;
+    margin-bottom:.5rem;
+}
+.book-footer{
+    color:whitesmoke;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size:clamp(1.5rem, 1.8rem, 1.9rem);
+ }
+ .foot{
+    text-decoration: none;
+    color:black;
+    font-size:12px;
+    cursor:point;
+ }
+ 
+ .mo-footer{
+    color:rgb(255, 0, 0);
+    font-family:serif;
+    font-weight: 100;
+    font-size:clamp(1.5rem, 1.8rem, 1.9rem);
+ }
+ .foot-line{
+    width:100px;
+    height: 2px;
+    margin-top:2px;
+ }
+.momo{
+    text-decoration: none;
+}
+.flexFoot-icon{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.mo{
+    color:red;
+    font-size:2rem;
+}
+.moBook{font-size: 2rem;}
+
+.no-data-flex{
+    display:flex;
+    width:100vw;
+    align-items: center;
+    justify-content: center;
+}
+.no-data-p{
+    text-align: center;
+    color: rgb(131, 129, 129);
+    font-size:1.6rem;
+}
+.no-data-link{
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+.no-data-search{
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    height: 90vh;
+}
+.nodata{
+    margin-top: 1.9rem;
+    height: 2rem;
+}
+.no-data-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.home-link{
+    text-decoration: none;
+}
+.home{
+    font-size:2.5rem;
+    color:rgb(62, 57, 57);
+}
+.home-div{
+    display: flex;
+    justify-content: flex-end;
+margin-right: 3rem;
+}
+.select-label{
+    font-size:1.5rem;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: space-evenly;
+    width:200px;
+    align-items: center;
+    background-color:white;
+    margin-bottom: 2rem;
+}
+.p-div{
+    margin-bottom:20px;
+   
+}
+.p-account{
+    text-align: center;
+    font-size: 12px;
+}
+.bal-input{width:100%;}
+.Bal-forms{
+    width: 50rem;
+    height:32rem;
+    background-color: red;
+}
+
+.h-sign{
+    text-align: center;
+    color:rgb(57, 56, 56);
+    font-size: 1.8rem;
+}
+.login-div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+.login-bt{
+    width:15rem;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    height:20px;
+
+}
+.register-form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1px;
+width:100vw;
+    height:60vh;
+}
+.form-div{
+    height:80vh;
+}
+  .sidebar {
+    width: 250px;
+    height: 50vh;
+    position: fixed;
+    top: 0;
+    color:white;
+    margin-top:7rem;
+    left: -250px;
+    background-color: rgb(30, 30, 30);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  
+  
+  
+  /* Show the sidebar when it's open */
+  .menu-app .sidebar {
+    left: 0;
+  }
+  .close{font-size:2rem}
+
+  .open{font-size:3rem}
+  .menu-app{display: none;}
+  @media only screen and (max-width: 914px) {
+    .menu-app {
+      display: flex;
+    }
+    .close-toggle{
+        display:flex;
+        justify-content: end;
+        background-color: yellow;
+        width: 60vw;
+      }
+  }
+  
+  
+  
+  
+  
+  
+  
+
+  .reg-form{
+    width:clamp(20rem, 50.5vw,80vw);
+}
+.error{
+    text-align: center;
+    font-size: 1.5rem;
+    color:red;
+}
+
+.logo-photo{
+    width:4rem;
+    height:3rem;
+}
+.airtel-photo{
+    width:6rem;
+    height:3rem;
+}
+.mtn-div{
+    margin:.5rem;
+}
+.mtn-logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:2rem;
+}
+
+      .rec-error{
+        text-align: center;
+        color: rgb(252, 11, 11);
+        font-size: 1.5rem;
+      }
+ 
+  @media only screen and (max-width:374px) and (max-width:870px) {
+    .parent-app{
+        display:flex;
+        background-color: orange;
+        justify-content: center;
+        margin-top: 3rem;
+        width:100vw;
+    }
+    .cash-bal-parent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:60rem;
+        background-color: yellow;
+    }
+    .no-data-div{
+        width:93vw;
+    }
+    .no-data-parent{
+        width:95vw;
+    }
+    .search-parent{
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+    .rec-paren{
+        display:none;
+    }
+.register-parent{
+    display:flex;
+    justify-content: center;
+    margin-top:0;
+    justify-content: center;
+    background-color: rgb(94, 94, 100);
+    height: 80vh;
+    width:100vw;
+}
+.cash-bal-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:60rem;
+    background-color: yellow;
+}
+.momoo-parent{
+    display:none;
+    
+}
+.register-form{
+    display:flex;
+    justify-content: center;
+    width:90vw;
+    background-color: orange;
+    margin-top: 0;
+}
+::placeholder{font-size:1.8rem}
+.sign-up-p{font-size: 1.8rem;
+    color:rgb(46, 45, 45)
+}
+.form-div{
+    width:90vw;
+}
+
+.footer-main{
+    height: 25rem;
+}
+.cash-parent{
+    width:10rem;
+}
+  }
+  @media  screen and (min-width:1279px) and (min-height:790px) {
+    
+    rec-paper{
+        height:100%;
+    }
+    .bal-containter{
+        height: 90vh;
+    }
+    .bal-form{width: 80vw;
+        height: 70vh;
+    }
+    .home-div{
+        display: flex;
+        justify-content: flex-end;
+margin-right: 0;
+    }
+    .rec-form-parent{
+        height: 100%;
+    }
+    .rec-form-paper{width:90%;
+        height: 90%;
+        background-color: green;
+    }
+    .inputs-form{
+        height: 100%;
+    }
+    .rec-record{
+        width: 15rem;
+    }
+    .rec-parent{
+        display:flex;
+        justify-content:center;
+        width: 100%;
+        height:100%;
+
+    }
+    .no-data-parent{
+        display:flex;
+        width: 60%;
+        justify-content: center;
+        align-items: center;
+    }
+    .cash-parent{width:100%;
+    }
+    .no-data-p{
+        font-size: 2rem;
+    }
+    .cash-bal-parent{display: flex;
+        width:100%;
+        justify-content: space-between;
+    }
+    .no-data-search{
+        margin-top: 2rem;
+        height:43vh;
+width:95vw;
+        background-color: blue;
+    }
+    .trnx-parent{
+        height: 60vh;
+    }
+    .footer-main{height:29rem;}
+
+    .foot-container{height:29rem;}
+  }
+  
+  
+ 
+  @media only screen and (min-width:1015px) and (max-height:610px) {
+    .parent{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(142, 129, 60);
+        width:100vw;
+        height: 60vh;
+        margin-top: 0;
+    }
+    .bal-containter{
+        height: 100vh;
+    }
+    .bal-form{width: 80vw;
+        height: 51.8vh;
+    }
+    .register-form{
+        display:flex;
+        justify-content: center;
+    }
+    .trnx-parent{
+        display:flex;
+        justify-content: center;
+        background-color: orange;
+        width:clamp(40rem,53rem,60rem)
+    }
+    .rec-paper{margin-top: 5rem;
+        
+        height: 40vh;
+    }
+    .flex-icon{margin-left: .1rem;}
+    .rec-p{font-size:1rem;}
+    .rec-paren{width:20rem;}
+    
+    
+    
+    .flexFoot-icon{margin-top: 1rem;}
+    .form-div{height:50vh;
+        margin-top: 0;
+    }
+    .register-parent{
+        display:flex;
+        justify-content: center;
+        height:80vh;
+        margin-top:2rem;
+        background-color: black;
+          width:100dvw;
+        }
+        .foot-container{
+            width:100vw;
+            height: 23rem;
+            position: fixed;
+        }
+        .footer-main{width: 100vw;}
+  }      
+
+  @media only screen and (min-width:1023px) and (max-height:610px) {
+    .parent-app{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(142, 129, 60);
+        width:100vw;
+        height: 60vh;
+    }
+    .bal-form{width:60vw;}
+    .log-in{margin-top:6rem;}
+    .home-div{
+        display: flex;
+        justify-content: flex-end;
+margin-right: 0;
+    }
+    .no-data-parent{
+        display:flex;
+        margin-top: 4rem;
+        width: 95vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .head{margin-bottom:0;}
+    .no-data-search{
+        margin-top: 2rem;
+        height:40vh;
+width:95vw;
+        background-color: blue;
+    }
+    .register-form{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .trnx-parent{
+        display:flex;
+        justify-content: center;
+        background-color: yellow;
+        width:clamp(40rem,53rem,60rem)
+    }
+    .cash-bal-parent{
+        display:flex;
+        background-color: red;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .rec-paren{
+        display:flex;
+        justify-content: center;
+        margin-top: 7rem;
+        background-color: blue;
+    }
+.rec-record{
+    width: 15rem;
+}
+    .rec-photo{margin-left: 4rem;}
+
+    .rec-paper{
+        margin-top: 0;
+        height: 100%;
+    }
+    .flex-icon{margin-left: 2rem;}
+    .rec-p{font-size:1rem;}
+    .rec-parent{width:100vw;
+        margin-top:7rem;
+    }
+    .form-div{margin-top: 0;}
+    
+   .rec-form-parent{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   }
+    .flexFoot-icon{margin-top: 1rem;}
+    .form-div{height:50vh;
+        margin-top: 1rem;
+    }
+    .register-parent{
+        display:flex;
+        justify-content: center;
+        height:80vh;
+        margin-top:7rem;
+        background-color: blue;
+          width:100dvw;
+        }
+        .foot-container{
+            width:100vw;
+            height: 23rem;
+            position: fixed;
+        }
+        .footer-main{width: 100vw;}
+  }
+  @media only screen and (max-width:541px ) and (min-height:719px) {
+    .parent{
+        display:flex;
+        justify-content: center;
+background-color: orange;
+        width:100vw;
+        height:60vh;
+    }
+    .log-in{margin-bottom: 1rem;}
+    .cash-bal-parent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:90%;
+        background-color: yellow;
+    }
+    .cash-parent{
+        display:flex;
+        justify-content: space-between;
+        margin-top: 4rem;
+        align-items: center;
+        background-color: purple;
+        
+    }
+    .cash-btn{margin-top: 1rem;}
+    .no-data-search{
+        margin-top: 2rem;
+        height:55vh;
+width:95vw;
+        background-color: blue;
+    }
+    .head{margin-bottom: 0;
+        margin-top: 5rem;
+    }
+    .register-form{background-color: yellow;}
+    
+    .inputs-form{
+        display: flex;
+        justify-content: center;
+        margin-top:0;
+        height:100vh;
+        background-color:rgb(119, 119, 65);
+        width:100vw;
+    }
+    
+    .rec-form{
+        display: flex;
+        background-color: pink;
+        width: 80vw;
+    }
+    .no-data-parent{
+        display: flex;
+        align-items: center;
+        height: 55vh;
+        justify-content: center;
+    }
+    .foot-container{height: 23rem;
+        margin-top:2rem;
+        position: fixed;
+        background-color: purple;
+    }
+    .trnx-parent{
+        display: flex;
+        justify-content: center;
+        height: 60vh;
+
+        background-color: yellow;
+        width:clamp(40rem,53rem,60rem)
+    }
+    
+    .rec-parent{
+        display: flex;
+        justify-content: center;
+        background-color: green;
+        height: 100vh;
+        width: 100vw;
+        margin-top:0;}
+        .rec-form-parent{
+            display: flex;
+        justify-content: center;
+        background-color: orange;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+        margin-top: 3rem;
+        }
+    .flex-icon{margin-left: .1rem;}
+    .rec-p{font-size:1rem;}
+    .rec-paren{display:none;}
+    
+    
+   .form-div{height:50vh;
+        margin-top: 0;
+    }
+    
+    .register-parent{
+        display:flex;
+        justify-content: center;
+        margin-bottom: 2.8rem;
+          width:100vw;
+          height:50vh;
+          background-color: orangered;
+        }
+        .flexFoot-icon{margin-top: .5rem;}
+        
+  }  
+  @media only screen and (max-width:395px) and (max-height:855px) {
+.search-parent{
+    display: flex;
+    justify-content: center;
+    width: 80vw;
+    background-color: yellow;
+    margin-top: 5rem;
+    height: 80vh;
+    
+}
+.no-data-search{height: 80vh;}
+  }
+
+  @media only screen and (max-width:395px) and (max-height:888px) {
+    .parent-app{
+        display:flex;
+        justify-content: center;
+        width:100vw;
+        margin-top: 0;
+
+        margin-bottom: 2rem;
+    }
+.head{
+    height:3rem;
+    background-color: orange;
+}
+    .cash-bal-parent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:90%;
+        background-color: black;
+    }
+    .no-data-parent{
+        display:flex;
+        background-color: red;
+        justify-content: center;
+        width: 95vw;
+        align-items: center;
+    }
+    .home-div{
+        display: flex;
+        justify-content: flex-end;
+margin-right: 0;
+    }
+    .trnx-parent{height: 70vh;
+        background-color: yellow;
+        width:100vw;
+    }
+    .no-data-div{
+        display:flex;
+        justify-content: center;
+        background-color: purple;
+        width:95vw;
+    }
+    .no-data-search{
+        margin-top: 2rem;
+        height:43vh;
+width:95vw;
+        background-color: blue;
+    }
+    .search-parent{
+        display:flex;
+        height: 60vh;
+        justify-content: center;
+    }
+    .mtn-logo{margin-top:3rem;}
+    .flexFoot-icon{margin-top:.5rem;}
+    .cash-btn{width: 10rem;
+        background-color: blue;
+    }
+    
+    .cash-parent{
+        display:flex;
+        height:5rem;
+        margin-top: 1rem;
+        width: 100vw;
+        align-items: center;
+        background-color: pink;
+        justify-content: space-between;
+    }
+    .close-toggle{width: 100%;}
+    .inputs-form{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        margin-top: .5rem;
+        background-color:red;
+    }
+    .rec-paren{
+        display:none;
+    }
+    .register-form{
+        display:flex;
+        width: 100vw;
+        margin-top:0;
+        justify-content: center;  
+    }
+    .register-parent{
+        display:flex;
+        width: 100vw;
+        background-color: green;
+height:80vh;
+        margin-top: 0;
+        justify-content: center;
+    }
+   
+    .rec-parent{
+        display: flex;
+        justify-content:center;
+        margin-top: 5rem;
+        height: 100vh;
+    }
+    .trnx-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        height: 50vh;
+        width:100vw;
+    }
+    
+    .flex-icon{margin-left: .1rem;}
+    .rec-p{font-size:1rem;}
+    .form-div{margin-top: 1rem;
+        width:100vw;
+        height:70vh;
+    }
+    .foot-container{background-color: rgb(69, 36, 36);
+        height:20rem;
+position: fixed;
+    }
+    .footer-main{height: 20rem;}
+    .cashToggle{margin-top: 0;
+    background-color: pink;}
+    .btn-div{background-color: orange;}
+    
+.log-in{margin-top: 6rem;
+    margin-bottom:1rem;
+}
+   
+    .bal-form{
+        margin-top: 0;
+        width:90vw;
+    }
+    .rec-form-paper{height: 95vh;
+    width:100vw;}
+        .footer-main{
+            background-color: rgb(21, 19, 19);
+            margin-top:1rem;
+        }
+        
+  }
+ 
+  @media only screen and (max-width:366px) and (max-height:641px) {
+   .parent-app{
+       height:60vh;
+   }
+ .rec-paren{
+    display:none;
+}
+.bal-form{
+    width:90vw;
+}
+.log-in{margin-bottom: 1rem;}
+
+.cash-bal-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+}
+.inputs-form{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    background-color: pink;
+    margin-top: 0;
+}
+.search-parent{background-color: green;
+    width:90vw;
+    height: 55vh;
+}
+.search-table{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    height:40vh;
+    background-color: purple;
+}
+.head{
+    display:flex;
+    justify-content: center;
+    margin-bottom:0 ;
+    background-color: yellow;
+}
+   
+    
+    .register-form{
+        display: flex;
+        margin-top: 0;
+        justify-content: center;
+        width: 100vw;
+    }
+    .close-toggle{width:100%;}
+    .close-div{width:95%;
+        background-color: yellow;
+        display:flex;
+        justify-content: end;
+    }
+    .cash-parent{
+        display:flex;
+        justify-content: space-between;
+        height:5rem;
+        width:100vw;
+        align-items: center;
+        background-color: purple;
+        
+    }
+    .trnx-parent{
+        width:98vw;
+    }
+    .no-data-icon-div{margin-top: 1rem;}
+    .no-data-parent{
+        display:flex;
+        width: 95vw;
+        justify-content: center;
+        align-items: center;
+    }
+     .home-div{
+        display: flex;
+        justify-content: flex-end;
+margin-right: 0;
+    }
+    .foot-container{
+        height: 45rem;
+    }
+    .foot-link{
+        margin-top:.3rem;
+    }
+    
+    .form-div{
+        width:90vw;
+        margin-top:1rem;
+        height: 100%;
+    }
+    .register-parent{
+        display: flex;
+justify-content: center; 
+  margin-top: 0;
+        width: 100vw;
+        height:80vh;
+    }
+    .rec-form-parent{
+        display:flex;
+        margin-top: 1rem;
+        justify-content: center;
+        width: 100vw;
+    }
+    
+    .rec-parent{
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+    }
+    .no-data-search{
+        margin-top: 2rem;
+        height:43vh;
+width:95vw;
+        background-color: blue;
+    }
+    
+  }  
+  
+     
+  @media only screen and (min-width:766px) and (min-height:1020px) {
+   
+    .parent{
+        display: flex;
+justify-content: center;
+        background-color: red;
+        height: 100vh;
+        width:100vw;
+        margin-top: 7rem;
+    }
+    .no-data-p{font-size: 2rem;}
+    .log-in{margin-bottom: 1rem;}
+
+    .head{margin-top:10rem;}
+    .search-parent{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8rem;
+        background-color: green;
+    }
+    .no-data-search{
+        margin-top: 2rem;
+        height:53vh;
+width:95vw;
+        background-color: yellow;
+    }
+    .rec-paren{
+        display:none;
+        justify-content: center;
+        width:70vw;
+    }
+    
+    .cash-parent{
+        display:flex;
+        justify-content: space-around;
+        background-color: purple;
+        height: 3rem;
+    }
+    .cashToggle{
+        margin-top:2rem;
+    }
+    .inputs-form{
+        display: flex;
+        justify-content: center;
+        width: 50vw;
+        height:50vh;
+        align-items: center;
+        background-color:yellow;
+    }
+    .record{width:100vw;
+        margin-top: 0;
+    }
+    
+    .form-div{width: 80vw;
+    margin-top:9rem;
+
+        height:60vh;
+    }
+    
+    
+    .h-sign{font-size: 2.5rem;}
+    .signup-link{font-size: 2.2rem;}
+    .sign-up-p{font-size: 2.2rem;}
+    .register-parent{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 11rem;
+        background-color: green;
+        width: 100vw;
+    }
+    .foot-container{
+        height: 35rem;
+        position: fixed;
+    }
+}
+
+
+
+
+
+
+  @media only screen and (min-width:765px)  and (min-height:913px){
+    .parent-app{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(75, 193, 134);
+        height: 50vh;
+        margin-top: 3rem;
+    }
+    .cash-bal{margin-top: 1rem;}
+    .no-data-div{
+        width:93vw;
+
+    }
+    .no-data-icon-div{
+        margin-top: 1rem;
+    }
+    .no-data-parent{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        width:95vw;
+    }
+    .inputs-form{
+        width:90vw;
+    }
+    .rec-parent{display:flex;
+        justify-content: center;
+        height: 100vw;
+        }
+    .toggle-p{
+        width: 10rem;
+        background-color: yellow;
+    }
+    
+   
+    .cashToggle{width: 1rem;
+    background-color: blue;}
+    .toggle-container{margin-top: 3rem;
+        background-color: blue;
+    width:20rem}
+    .form-div{margin-top: 0;
+        
+}
+.rec-form-parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    margin-top: 7rem;
+    height: 100vh;
+}
+.trnx-parent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+
+}
+.cash-parent{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.close{font-size: 3rem;}
+.close-toggle{
+    display: flex;
+    width: 100%;
+    background-color: yellow;}
+.inputs-form{width:100vw;}
+.cash-bal-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:60rem;
+    background-color: yellow;
+}
+    .register-parent{
+        display:flex;
+        justify-content:center;
+        height:70vh;
+        margin-bottom: 2.8rem;
+          width:100dvw;
+        }
+        .foot-container{
+            height: 33rem;
+        }
+        
+        .log-in{margin-top: 9rem;}
+        .bal-form{width: 80vw;
+        height: 50vh;}
+  }    
+
+ 
+ 
+  
+  @media only screen and (max-width:415px) and (min-height:890px) {
+    .parent-app{
+        display:flex;
+        justify-content: center;
+        height: 100vh;
+        margin-top: 0;
+    }
+    .log-in{margin-bottom: 1rem;}
+
+    .cash-bal-parent{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width:90%;
+    }
+    .home-div{
+        display: flex;
+        justify-content: flex-end;
+margin-right: 0;
+    }
+    .no-data-parent{
+        width:93vw;
+        height: 55vh;
+    }
+    .rec-parent{
+        display:flex;
+        justify-content: center;
+        margin-top: 7rem;
+        width: 100vw;
+    }
+    .no-data-search{
+        margin-top: 2rem;
+        height:43vh;
+width:95vw;
+    }
+    .rec-form-parent{
+        display: flex;
+        margin-top:0;
+        height: 80vh;
+        justify-content: center;
+    }
+    .cash-parent{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: purple;
+        
+    }
+    
+    .cash-bal{
+        margin-top: 1rem;
+    }
+    .inputs-form{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height:90vw;
+        margin-top:2rem;
+        background-color:pink;
+    }
+    ::placeholder{font-size: 1.8rem;
+    font-weight: 400;}
+    .form-div{width:100vw;
+        margin-top:7rem;
+    }
+    .register-form{width: 100vw;
+    }
+    .rec-paren{
+        display:none;
+    }
+    .rec-form-paper{
+        display: flex;
+        height:90vh;
+        width:100vw;
+        background-color: yellow;
+        justify-content: center;
+        margin-top: 0;
+    }
+    .rec-paper{
+        width: 10rem;}
+    
+    
+    .search-parent{
+       
+        height: 65vh;}
+    
+        .footer-main{height: 28rem;}
+        .foot-container{
+            height: 25rem;
+            position: fixed;
+        }
+  } 
+  @media only screen and (max-width:281px) and (max-height:654px) {
+    .no-data-parent{
+        display: flex;
+        align-items: center;
+        height: 55vh;
+        width:100vw;
+        background-color: purple;
+        justify-content: center;
+    }
+    .log-in{margin-bottom: 1rem;}
+
+    .parent-app{
+        display: flex;
+        align-items: center;
+        height: 55vh;
+        width:100vw;
+        margin-top: 6.5rem;
+        background-color: purple;
+        justify-content: center;
+    }
+    .rec-form-parent{
+        margin-top: 7rem;
+    }
+    .rec-parent{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:6rem;
+        width: 100vw;
+    }
+    .rec-form-parent{
+        width:100vw;
+    }
+.cash-parent{background-color: yellow;
+width: 100%;
+float:right;
+display: flex;
+justify-content: space-around;
+
+}
+.record{
+    width: 100vw;
+}
+.cash-bal-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:90%;
+    background-color: yellow;
+}
+    .cash-bal{
+        margin-top:1rem;
+    width: 6rem;
+    }
+    .inputs-form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+          width:100vw;
+    }
+    .rec-parent{
+        display: flex;
+        justify-content: center;
+          width:100vw;
+        align-items: center;
+    }
+    .home-div{
+        display: flex;
+        justify-content: flex-end;
+margin-right: 0;
+    }
+    .trnx-parent{
+        width: 100vw;
+    }
+    .no-data-icon{
+        font-size:6rem;
+    }
+    .nodata{width: 100vw;}
+    .search-parent{width: 100vw;}
+  }
+  
